@@ -1,5 +1,11 @@
 # Global Wildfire Risk Intelligence Dashboard
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-open-16803C?style=flat)](https://global-wildfire-risk-dashboard-muhammad-dani-nasution.streamlit.app/)
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle%20NASA%20FIRMS-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/sarcasmos/nasa-firms-multi-sensor-global-wildfire-detections)
+[![Focus](https://img.shields.io/badge/Focus-geospatial%20analytics-334155?style=flat)](#global-wildfire-risk-intelligence-dashboard)
+
 ## English
 
 This project analyzes global wildfire hotspot detections from NASA FIRMS and converts them into a grid-based wildfire risk dashboard. Instead of only plotting fire points on a map, the project summarizes active areas, daily trends, thermal intensity, sensor coverage, and monitoring priorities.
