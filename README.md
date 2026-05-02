@@ -6,6 +6,8 @@ This project analyzes global wildfire hotspot detections from NASA FIRMS and con
 
 I built this as a data analytics and geospatial analytics portfolio project, covering data cleaning, exploratory analysis, spatial aggregation, risk scoring, and a reproducible Streamlit dashboard.
 
+Live dashboard: [global-wildfire-risk-dashboard-muhammad-dani-nasution.streamlit.app](https://global-wildfire-risk-dashboard-muhammad-dani-nasution.streamlit.app/)
+
 ### Why This Project
 
 Satellite hotspot datasets can quickly become crowded point maps. To make the data easier to analyze, this project turns raw detections into:
@@ -182,6 +184,8 @@ If `data/raw/` is empty, the pipeline uses the sample dataset in `data/sample/`.
 Project ini menganalisis data deteksi titik panas global dari NASA FIRMS dan mengubahnya menjadi dashboard risiko kebakaran berbasis grid. Fokusnya bukan hanya menampilkan titik api di peta, tetapi merangkum area yang paling aktif, tren harian, intensitas termal, cakupan sensor, dan prioritas pemantauan.
 
 Project ini dibuat sebagai portfolio data analytics dan geospatial analytics, mulai dari data cleaning, eksplorasi data, agregasi spasial, risk scoring, sampai dashboard Streamlit yang bisa dijalankan ulang.
+
+Dashboard live: [global-wildfire-risk-dashboard-muhammad-dani-nasution.streamlit.app](https://global-wildfire-risk-dashboard-muhammad-dani-nasution.streamlit.app/)
 
 ### Alasan Project
 
