@@ -1,0 +1,173 @@
+{
+  "raw_path": "data\\raw\\nasa_firms_multisensor_2026.csv",
+  "cleaned_path": "data\\processed\\cleaned_wildfire_data.csv",
+  "risk_path": "data\\processed\\wildfire_risk_scores.csv",
+  "profile": {
+    "raw_rows": 565708,
+    "raw_columns": 22,
+    "rows_after_coordinate_datetime_validation": 565690,
+    "duplicate_rows_removed": 18,
+    "final_rows": 565690,
+    "final_columns": 28
+  },
+  "date_min": "2026-04-21 00:01:00+00:00",
+  "date_max": "2026-04-25 20:28:00+00:00",
+  "satellite_counts": {
+    "N": 181972,
+    "N20": 178644,
+    "N21": 174409,
+    "Aqua": 19255,
+    "Terra": 11410
+  },
+  "instrument_counts": {
+    "VIIRS": 535025,
+    "MODIS": 30665
+  },
+  "daynight_counts": {
+    "Day": 413582,
+    "Night": 152108
+  },
+  "confidence_counts": {
+    "Nominal": 449361,
+    "Low": 76795,
+    "High": 39534
+  },
+  "top_lat_band": {
+    "0\u00b0-30\u00b0N": 350120,
+    "30\u00b0N-60\u00b0N": 101835,
+    "30\u00b0S-0\u00b0": 88016,
+    "60\u00b0S-30\u00b0S": 22715,
+    "60\u00b0N-90\u00b0N": 2964,
+    "90\u00b0S-60\u00b0S": 40
+  },
+  "peak_days": [
+    {
+      "date": "2026-04-22",
+      "detections": 128907
+    },
+    {
+      "date": "2026-04-23",
+      "detections": 124255
+    },
+    {
+      "date": "2026-04-21",
+      "detections": 122094
+    },
+    {
+      "date": "2026-04-24",
+      "detections": 105029
+    },
+    {
+      "date": "2026-04-25",
+      "detections": 85405
+    }
+  ],
+  "risk_category_counts": {
+    "Medium": 4508,
+    "High": 2269,
+    "Low": 36,
+    "Critical": 6
+  },
+  "top_risk": [
+    {
+      "grid_label": "10.0 to 11.0 lat, -14.0 to -13.0 lon",
+      "risk_score": 80.84,
+      "risk_category": "Critical",
+      "hotspot_count": 3208,
+      "avg_frp": 44.67618142144639,
+      "avg_brightness": 344.79958541147136,
+      "avg_confidence": 64.00872817955113,
+      "latest_detection": "2026-04-25 16:37:00+00:00"
+    },
+    {
+      "grid_label": "11.0 to 12.0 lat, -14.0 to -13.0 lon",
+      "risk_score": 80.38,
+      "risk_category": "Critical",
+      "hotspot_count": 3782,
+      "avg_frp": 36.61051824431518,
+      "avg_brightness": 343.2992966684294,
+      "avg_confidence": 63.0018508725542,
+      "latest_detection": "2026-04-25 16:37:00+00:00"
+    },
+    {
+      "grid_label": "8.0 to 9.0 lat, -13.0 to -12.0 lon",
+      "risk_score": 79.05,
+      "risk_category": "Critical",
+      "hotspot_count": 5183,
+      "avg_frp": 19.796091066949643,
+      "avg_brightness": 340.5078487362531,
+      "avg_confidence": 63.47019100906811,
+      "latest_detection": "2026-04-25 16:35:00+00:00"
+    },
+    {
+      "grid_label": "9.0 to 10.0 lat, -13.0 to -12.0 lon",
+      "risk_score": 78.84,
+      "risk_category": "Critical",
+      "hotspot_count": 2948,
+      "avg_frp": 33.9418249660787,
+      "avg_brightness": 342.19773744911805,
+      "avg_confidence": 63.262890094979646,
+      "latest_detection": "2026-04-25 16:37:00+00:00"
+    },
+    {
+      "grid_label": "22.0 to 23.0 lat, 93.0 to 94.0 lon",
+      "risk_score": 78.53,
+      "risk_category": "Critical",
+      "hotspot_count": 3046,
+      "avg_frp": 35.03209126723572,
+      "avg_brightness": 340.3217793827971,
+      "avg_confidence": 63.28069599474721,
+      "latest_detection": "2026-04-25 07:35:00+00:00"
+    },
+    {
+      "grid_label": "10.0 to 11.0 lat, -13.0 to -12.0 lon",
+      "risk_score": 77.77,
+      "risk_category": "Critical",
+      "hotspot_count": 3266,
+      "avg_frp": 21.853337415799142,
+      "avg_brightness": 342.9652541334966,
+      "avg_confidence": 62.87385180649112,
+      "latest_detection": "2026-04-25 14:50:00+00:00"
+    },
+    {
+      "grid_label": "43.0 to 44.0 lat, 127.0 to 128.0 lon",
+      "risk_score": 75.15,
+      "risk_category": "High",
+      "hotspot_count": 5054,
+      "avg_frp": 7.344964384645825,
+      "avg_brightness": 337.380856747131,
+      "avg_confidence": 66.64008705975465,
+      "latest_detection": "2026-04-25 04:53:00+00:00"
+    },
+    {
+      "grid_label": "-15.0 to -14.0 lat, 125.0 to 126.0 lon",
+      "risk_score": 74.95,
+      "risk_category": "High",
+      "hotspot_count": 3914,
+      "avg_frp": 10.02164537557486,
+      "avg_brightness": 335.7517782319877,
+      "avg_confidence": 66.09580991313234,
+      "latest_detection": "2026-04-25 19:04:00+00:00"
+    },
+    {
+      "grid_label": "19.0 to 20.0 lat, -90.0 to -89.0 lon",
+      "risk_score": 74.91,
+      "risk_category": "High",
+      "hotspot_count": 1887,
+      "avg_frp": 20.56496025437202,
+      "avg_brightness": 338.993884472708,
+      "avg_confidence": 65.87175410704822,
+      "latest_detection": "2026-04-25 19:57:00+00:00"
+    },
+    {
+      "grid_label": "10.0 to 11.0 lat, -12.0 to -11.0 lon",
+      "risk_score": 74.57,
+      "risk_category": "High",
+      "hotspot_count": 2311,
+      "avg_frp": 14.563050627434011,
+      "avg_brightness": 341.99736045002163,
+      "avg_confidence": 62.4288186932064,
+      "latest_detection": "2026-04-25 14:50:00+00:00"
+    }
+  ]
+}

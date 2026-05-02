@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Notebook and app state
+.ipynb_checkpoints/
+.streamlit/
+.playwright-cli/
+.pytest_cache/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+!data/sample/*.csv
+
+# Local artifacts
+output/
+logs/
+*.log
+.DS_Store
+Thumbs.db
